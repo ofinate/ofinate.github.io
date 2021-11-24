@@ -481,7 +481,10 @@ p.txt_abmain{
 @media screen and (min-width: 761px) and (max-width: 1200px) {
     p.title_abt {
         font-size: 4vh;
-        width: 95%;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+
     }
 }
 .compname {
@@ -493,21 +496,22 @@ p.txt_abmain{
     text-decoration: none;
     transition: all .2s linear;
 }
-.flexcomp {
+.flex_comp {
     display: flex;
     align-items: center;
+    width: 50%;
 }
 @media screen and (min-width: 761px) and (max-width: 1200px) {
-    div.flexcomp {
-margin-left: 4vh;
-width: 20%;
+    div.flex_comp {
+width: fit-content;
+align-items: center;
+margin-right: auto;
+margin-left: auto;
     }
 }
 .block {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12vh;
+    width: fit-content;
 }
 
 @media screen and (max-width: 760px) {
@@ -523,7 +527,11 @@ width: 20%;
 }
 @media screen and (min-width: 761px) and (max-width: 1200px) {
     div.block{
-        padding-left: 20%;
+        position: sticky;
+        width: 87%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }  
 @media screen and (max-width: 600px) {
