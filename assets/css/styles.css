@@ -562,7 +562,7 @@ footer hr{
 }
 
 /* Medias */
-@media (max-width: 375px) {
+@media (max-width: 400px) {
  a.navigat{
     font-size: 2vw;
     }
@@ -669,7 +669,7 @@ footer{
 }
 }  
 /* Устроства с маленьким экраном (планшеты, 768px и выше) */
-@media (min-width: 376px) {
+@media (min-width: 401px) {
     a.navigat{
         font-size: 3vw;
         }
