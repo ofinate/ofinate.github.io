@@ -1,0 +1,8 @@
+body{
+    margin:0px;
+}
+.zoom{
+    width: 99vw;
+    height: 50vh;
+    height: fit-content;
+}
